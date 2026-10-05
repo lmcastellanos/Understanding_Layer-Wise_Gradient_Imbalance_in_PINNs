@@ -1,0 +1,23 @@
+The files available do the following tasks:
+
+-adaptive_training_norm_ratio.py: produces the kfold models training.
+
+-gradient_histograms_5layer_normalization.py: specialized script to plot the histograms fro the 5-layer deep model. 
+
+-loss_mean_values.csv: average loss mean values for the last training epochs. 
+
+-calculate_gradients_5_hidden_layers.py: specialized script to calculate the offline gradients for the 5-layer deep model. 
+
+-k_model_2.pth: model selected with the best performance in the kfold results. 		
+
+-loss_values_plots_auto_zoom.py: script that plots the loss values for the MSE and regularization term, it adapts the scale of the graph automatically. 
+
+-curves_evaluation_interpolation_extrapolation.py: script that evaluates the selected model reconstruction performance in elementwise and autoregression modes, for both interpolation and extrapolation cases. 
+
+-k_model_loss2.csv: MSE loss values for the selected model. 
+
+-gradient_histograms_5_hidden_layers.py: produces the offline gradients for the 5-layer deep model. 
+
+-k_model_reg_loss2.csv: regularizer loss contributions of the selected model. 
+
+REMEMBER YOU SHOULD FIRST CALCULATE THE GRADIENTS FOR AFTERWARDS USING THE HISTOGRAMS PLOTTING FILES. 

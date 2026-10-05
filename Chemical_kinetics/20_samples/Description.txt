@@ -1,0 +1,11 @@
+The files in the folder are the following ones: 
+-hausdorff_distances.py: calculates the hausdorff distance for reconstruction cases in interpolation for each training method. 
+-hausdorff_distances_extrapolation.py: calculates the hausdorff distance for reconstruction cases in extrapolation for each training method. 
+-kfold_all_species_reconstruction_layerwise_mass_general_datasets.py: caculates the kfold reconstructions for all the species, take note that for this script to work, you need to run first the kfold training. 
+-compare_hausdorff_distances.py: compares the hausdorff distances among all the training cases. 
+
+Regarding the folders we have:
+
+-Gradient_normalization:it cotains the training and analysis scripts for the layer-wise gradient normalization training case. 
+-MSE: it contains the training and analysis scripts for the MSE training case. 
+-Mass_conservation: it contains the training and analysis scripts for the fixed regularization training case. For the training, a general script is provided, please note you should modify the regularization constant declared at the beginning of the script to match the different regularization constants that have been used; also remember to check the Datasets_n folder that is referred (n stands for the number of ignition trajectories under consideraiton). For the results, you can find different folders, each with the value of the regularization constant as name. The results for each case are available in each folder. 

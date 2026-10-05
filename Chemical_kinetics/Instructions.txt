@@ -1,0 +1,9 @@
+This folder contains the different sampling densities used to analyze the problem. inside each folder it is possible to find others relating to the cases understudy:
+
+-MSE
+-Mass conservation
+-Gradient normalization
+
+The file "hausdorff_vs_sample_density.py" creates the bar graph for the hausdorff distances for each training technique, comparing its performance when the sample size is 
+increased. 
+

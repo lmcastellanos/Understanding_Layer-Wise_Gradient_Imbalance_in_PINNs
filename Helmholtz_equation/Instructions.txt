@@ -1,0 +1,3 @@
+In each of the suboflders, it is possible to find the codes related to the Helmholtz equation training, there is one file for the fixed regularization case, and another for the gradient normalization one. Each folder has codes related to each of the regularization constants under study, 1e-3 and 1e-5. 
+
+Additionally you find the code "compare_helmoltz_results.py", which produces the comparative graphs of both solutions. The code "extract_gradient_ratio_Rl.py" is the file that allows to obtaine metrics regarding the Rl ratio and the related plots. 

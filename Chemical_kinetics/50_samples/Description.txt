@@ -1,0 +1,19 @@
+This folder contains all the analyzed models for the sampling case of 50 trajectories. Note that many folders with the Gradient_clipping denomination refere to the gradient 
+normalization implementation. 
+
+The different folders refer to the cases: 
+
+-MSE: Mean squared error case
+-Mass_conservation: contains the scripts related to the fixed regularization term; inside it is possible to find folders with the values of the implemented regularization
+constants. 
+-Gradient_clipping: contains the files related to the gradient normalization. 
+-Gradient_clipping_deep: contains the files related to the model using 5-layers deep.
+-Gradient_clipping_Rl: contains the files related to the gradient normalization approache with augmentation of the gradients contributions. 
+
+Regarding the .py files, we have:
+
+-hausdorff_distances.py, it makes the analysis of the hausdorff distance in autoregression response, comparing all the training approaches. It evaluates the performance in interpolation. 
+-hausdorff_distances_extrapolation.py, it analyzes the hausdorff disntaces in autoregression response, but considering ignition trajectories outside the training trajectory. 
+-comparative_plots.py, it considers the comparison of the autoregression response for the fixed regularization and the gradient normalization. It analyzes cases in interpolation.
+-comparative_plots_extrapolation.py, generates the comparative plots for ignition trajectories in extrapolation, again it focus on the fixed regularization case and the gradietn normalization. 
+

@@ -1,0 +1,29 @@
+The files descriptions are as following:
+
+-IDT_evaluation_Datasets_50_extrapolation.py: calcualtes the IDT values for extrapolation trajectories. 
+
+-curves_evaluation_interpolation_extrapolation.py: calculates the IDT values for interpolation trajectories. 
+
+-k_model_reg_loss4.csv: contains the regularization loss contributions for the selected model. 
+
+-IDT_evaluation_Datasets_50_interpolation.py: calculates the IDT values for the interpolation trajectories. 
+	
+-loss_mean_values.csv: mean values losses for the last training epochs. 
+
+-IDT_second_positive_gradient.py: file that calculates the IDT values for the cases in which an outlier is developed. 
+
+-general_Hr_mass_conservation_analysis.py: calculates the Hr values for the selected model. 
+
+-loss_values_plots_auto_zoom.py: plots the loss contributions for both terms, MSE and regularizer, it also scales the graph axis accordingly. 
+
+-analyze_autoregressive_IDT_outlier.py: provides a more in detail analysis of the IDT outlier developed ad initial ignition stages. 
+
+-gradient_histograms_auto_model.py: it creates the gradients histograms for the selected model. 
+
+-offline_gradient_calculation_mass_fraction_reg_fixed.py: it calculates the gradients for the models coming form kfold analysis.
+
+-analyze_autoregressive_IDT_second_positive_peak.py: deploys the temperature peaks developed by small deviations at the beginning of combustion. 
+
+-k_model_4.pth: selected model for the reconstructions. 
+
+-k_model_loss4.csv: MSE loss contribution. 

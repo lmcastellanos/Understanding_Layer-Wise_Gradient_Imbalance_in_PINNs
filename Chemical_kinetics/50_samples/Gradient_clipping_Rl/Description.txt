@@ -1,0 +1,26 @@
+The contained files hold the following descriptions: 
+
+-IDT_evaluation_Datasets_50_extrapolation.py: it calculates the IDT values for the extrapolation trajectories. 
+
+-k_model_1.pth: selected model from the kfold trainings. 
+
+-IDT_evaluation_Datasets_50_interpolation.py: calculates the IDT values for interpolation trajectories. 
+
+-k_model_loss1.csv: MSE loss contributions for the selected model. 
+
+-adaptive_training_logRl_two_sided_Datasets_50.py: this produces the kfold training cases for the adjusted algorithm in which the gradient normalization not only reduces
+the regularization contribution, but it also amplifies it when needed, to have both gradients of the same magnitude. 
+
+-k_model_reg_loss1.csv: regularizer loss contributions for the selected model. 
+
+-curves_evaluation_interpolation_extrapolation.py: script that elaborates the model recontructions in both interpolation and extrapolation. 
+
+-loss_mean_values.csv: mean loss values for the last traning epochs. 
+
+-general_Hr_mass_conservation_analysis.py: calculates the Hr value for the selected model. 
+
+-loss_values_plots_auto_zoom.py: it plots the loss graphs for the selected model; the script adapts the axis scales accordingly. 
+
+-gradient_histograms_norm_ratio_scaled.py: plots the gradient histograms. 
+
+-offline_gradient_calculation_norm_ratio_with_cosine_auto_model.py: it calculates the gradients for the selected model. 

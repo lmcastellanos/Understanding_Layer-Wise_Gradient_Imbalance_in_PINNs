@@ -1,0 +1,3 @@
+This folder contains the codes related to the Burgers equation training, there is one file for the fixed regularization case, and another for the gradient normalization one. For this case only one case of regularization constant is analyzed with 1e-3.
+
+Additionally you find the code "compare_burgers_results.py", which produces the comparative graphs of both solutions. The code "extract_gradient_ratio_Rl.py" is the file that allows to obtaine metrics regarding the Rl ratio and the related plots. 

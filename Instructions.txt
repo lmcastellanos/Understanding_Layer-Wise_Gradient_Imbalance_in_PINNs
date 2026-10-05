@@ -1,0 +1,8 @@
+This folder holds the different cases treated in the paper: 
+
+
+For the datasets, extract the data in files Datasets_n.zip and allocate them in folders with the same name, these are the samplings related to the chemical kinetics case. The codes used for training read properly the files using the address /Alternative_trainings/Datasets_n
+
+For the case of Burgers and Helmholtz equations, the csv files should be allocated inside the different folders. 
+
+Inside each folder you will find another txt file with instructions and short explanations of each code file. 

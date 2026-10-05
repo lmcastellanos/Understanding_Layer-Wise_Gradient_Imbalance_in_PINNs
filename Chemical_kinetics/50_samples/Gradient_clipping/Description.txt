@@ -1,0 +1,23 @@
+This folder contains all the codes for the analysis of the model regarding gradient normalization or gradient clipping; the codes are as follows:
+
+-curves_evaluation_interpolation_extrapolation.py, it creates the ignition trajectories reconstructions for cases in both, interpolation and extrapolation. It also analyzes the reconstructions for both, element-wise (or point-wise) and autoregressive reconstructions. 
+
+-loss_values_plots_auto_zoom.py, it analyzes the loss plots, considering all the loss components, including the mse, the regularization term, and the total loss. 
+
+-offline_gradient_calculation_norm_ratio_with_cosine_auto_model.py, is the script that allows to calculate the gradients related to the specific model. 
+
+-IDT_evaluation_Datasets_50_interpolation.py, analyzes the IDT values for the trajectories in interpolation conditions. 
+
+-IDT_evaluation_Datasets_50_extrapolation.py, analyzes the IDT values for the trajectories in extrapolation conditions. 
+
+-analyze_autoregressive_IDT_outlier.py, enables the analysis of the outliers in IDT detection due to the small deviation of temperature (0.34%) in the first stages of ignition. 
+
+-gradient_histograms_norm_ratio_scaled.py, is the script that produces the histograms of the mdoel's gradients. 
+
+-general_Hr_mass_conservation_analysis.py, it analyzes the gradients norm ration R_l, and the Heterogeneity index H_r. It produces the related graphs too. 
+
+-adaptive_training_norm_ratio.py, is the script ran to obatain the different models from K-fold, from these one model is selected for analysis in the paper. 
+
+-postprocess_5fold_Rl_Hr_publication.py: calculates the average and std values for Rl and Hr for the kfold models, this should be allocated in the folders loss_layers-3/repeats_1/ before being run. It should be ran after average_log10Rl_Hr_across_5folds_publication.py.
+-average_log10Rl_Hr_across_5folds_publication.py: it enables the calculation for the Rl and Hr values across folds, this code should be ran first. 
+
