@@ -8,3 +8,7 @@ this repository with names "Datasets_n", with n making reference to the number o
 The zenodo dataset is available in:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23160379.svg)](https://doi.org/10.5281/zenodo.23160379)
+
+Additionally, the complete collection of analyzed models is available in this separate dataset; note that due to data limits in this repository you will find the models related to dynamical trajectories of chemical kinetics with the minimum Hausdorff distnaces: 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24083100.svg)](https://doi.org/10.5281/zenodo.24083100)
